@@ -1,0 +1,34 @@
+{
+    "name": "glidersky/orbit",
+    "description": "the new cauculate framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "glidersky",
+        "ORM"
+    ],
+    "homepage": "http://test",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "fengwei",
+            "email": "fengwei168@aliyun.com"
+        }
+    ],
+    "support": {
+        "email": "fengwei168@aliyun.com",
+        "irc": "http://irc"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "php-amqplib/php-amqplib": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    },
+    "extra": {
+        "glider-path": "glidersky"
+    }
+}
